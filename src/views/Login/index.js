@@ -38,7 +38,12 @@ class Login extends Component {
   }
 
   handleSignIn = () => {
-    alert(`Welcome, ${this.state.username}!`);
+    const { username, password } = this.state;
+    if (username === 'admin' && password === 'admin') {
+      window.location.pathname = '/dashboard';
+    } else {
+      alert('You are not authorized to sign in.')
+    }
   }
 
   render() {
