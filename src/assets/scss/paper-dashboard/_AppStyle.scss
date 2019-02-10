@@ -402,7 +402,7 @@ body {
     }
 
     .hero-message {
-        color: #fff;
+        color: #000;
         // text-shadow: #343a40 2px 2px;
         // min-width: 100%;
         // min-height: 12em;
@@ -428,8 +428,8 @@ body {
 }
 
 .hero::before {
-    background-image: url(%PUBLIC_URL%/pencil.jpg);
-    background-size: cover;
+    // background-image: url(%PUBLIC_URL%/pencil.jpg);
+    // background-size: cover;
     content: "";
     display: block;
     position: absolute;

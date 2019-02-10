@@ -4,10 +4,10 @@ import { createBrowserHistory } from "history";
 import { Router, Route, Switch } from "react-router-dom";
 
 import "bootstrap/dist/css/bootstrap.css";
-import "assets/scss/paper-dashboard.scss";
-import "assets/demo/demo.css";
+import "./assets/scss/paper-dashboard.scss";
+import "./assets/demo/demo.css";
 
-import indexRoutes from "routes/index.jsx";
+import indexRoutes from "./routes/index.jsx";
 
 const hist = createBrowserHistory();
 
