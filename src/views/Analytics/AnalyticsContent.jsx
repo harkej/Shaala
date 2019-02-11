@@ -26,7 +26,7 @@ export default class AnalyticsContent extends Component {
           <Col xs={12} sm={12} md={8}>
             <Card className="card-chart">
               <CardHeader>
-                <CardTitle>Chapter Wise Analysis of {subject} - {test}</CardTitle>
+                <CardTitle>Chapter Wise Analysis</CardTitle>
                 <p className="card-category">Students below 70%</p>
               </CardHeader>
               <CardBody>
@@ -58,7 +58,7 @@ export default class AnalyticsContent extends Component {
           <Col xs={12}>
             <Card>
               <CardHeader>
-                <CardTitle tag="h4">Chapter Wise Details</CardTitle>
+                <CardTitle tag="h4">Chapter Statistics</CardTitle>
               </CardHeader>
               <CardBody>
                 <ChapterTable data={chapterWiseData} />
@@ -70,7 +70,7 @@ export default class AnalyticsContent extends Component {
           <Col xs={12}>
             <Card>
               <CardHeader>
-                <CardTitle tag="h4">Difficulty Wise Details</CardTitle>
+                <CardTitle tag="h4">Difficulty Statistics</CardTitle>
               </CardHeader>
               <CardBody>
                 <DifficultyTable data={difficultyWiseData} />

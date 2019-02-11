@@ -7,6 +7,8 @@ import Maps from "views/Maps/Maps.jsx";
 import UserPage from "views/UserPage/UserPage.jsx";
 import Analytics from "views/Analytics/Analytics.jsx";
 import Login from "views/Login";
+import Complaints from "views/Complaints/Complaints.jsx";
+import NoPreview from "views/NoPreview/NoPreview.jsx";
 
 var dashRoutes = [
   {
@@ -30,37 +32,37 @@ var dashRoutes = [
     path: "/assessment-schedule",
     name: "Assessment Schedule",
     icon: "nc-icon nc-calendar-60",
-    component: Icons
+    component: NoPreview
   },
   { 
     path: "/complaints", 
     name: "Complaints", 
     icon: "nc-icon nc-paper", 
-    component: Maps 
+    component: Complaints 
   },
   {
     path: "/notifications",
     name: "Notifications",
     icon: "nc-icon nc-bell-55",
-    component: Notifications
+    component: NoPreview
   },
   {
     path: "/permission",
     name: "Permission",
     icon: "nc-icon nc-single-02",
-    component: UserPage
+    component: NoPreview
   },
   {
     path: "/suggestion",
     name: "Suggestion",
     icon: "nc-icon nc-tile-56",
-    component: TableList
+    component: NoPreview
   },
   {
     path: "/time-table",
     name: "Time Table",
     icon: "nc-icon nc-caps-small",
-    component: Typography
+    component: NoPreview
   },
   // {
   //   pro: true,

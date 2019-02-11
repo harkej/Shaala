@@ -179,3 +179,71 @@ export const sectionWiseData = {
     'Lowest',
   ]
 }
+
+export const studentsWiseData = {
+  "data": [
+    {
+      index: 'Suhas',
+      english: 92,
+      hindi: 78,
+      kannada: 99,
+      math: 88,
+      science: 83,
+      social: 94,
+    },
+    {
+      index: 'Vadiraja',
+      english: 79,
+      hindi: 82,
+      kannada: 77,
+      math: 82,
+      science: 93,
+      social: 64,
+    },
+    {
+      index: 'Harsh',
+      english: 85,
+      hindi: 87,
+      kannada: 69,
+      math: 80,
+      science: 57,
+      social: 68,
+    },
+    {
+      index: 'Pal Netra',
+      english: 46,
+      hindi: 35,
+      kannada: 33,
+      math: 67,
+      science: 23,
+      social: 65,
+    },
+    {
+      index: 'Bhavana',
+      english: 95,
+      hindi: 83,
+      kannada: 66,
+      math: 56,
+      science: 73,
+      social: 45,
+    },
+    {
+      index: 'Neelam',
+      english: 92,
+      hindi: 78,
+      kannada: 99,
+      math: 88,
+      science: 83,
+      social: 94,
+    },
+    {
+      index: 'Vinay',
+      english: 12,
+      hindi: 28,
+      kannada: 19,
+      math: 8,
+      science: 3,
+      social: 31,
+    },
+  ],
+}

@@ -30,7 +30,7 @@ export default class ClassAnalytics extends Component {
           <Col xs={12} sm={12} md={8}>
             <Card className="card-chart">
               <CardHeader>
-                <CardTitle>Section Wise Analysis of Class {nameOfClass} - {test}</CardTitle>
+                <CardTitle>Section Wise Analysis</CardTitle>
                 <p className="card-category">Students below 70%</p>
               </CardHeader>
               <CardBody>
@@ -62,7 +62,7 @@ export default class ClassAnalytics extends Component {
           <Col xs={12}>
             <Card>
               <CardHeader>
-                <CardTitle tag="h4">Section Wise Details</CardTitle>
+                <CardTitle tag="h4">Section Statistics</CardTitle>
               </CardHeader>
               <CardBody>
                 <ClassTable data={sectionWiseData} />

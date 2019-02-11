@@ -356,7 +356,7 @@ const chapterBarGraph = {
 
 const sectionBarGraph = {
   data: {
-    labels: ['A', 'B', 'C'],
+    labels: ['Sec A', 'Sec B', 'Sec C'],
     datasets: [
       {
         label: 'Students below 70%',

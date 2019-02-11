@@ -24,9 +24,9 @@ class RegularTables extends React.Component {
     super(props);
 
     this.state = {
-      nameOfClass: '',
+      nameOfClass: 'Eighth',
       section: '',
-      test: '',
+      test: 'Test 1',
       subject: '',
     };
   }
