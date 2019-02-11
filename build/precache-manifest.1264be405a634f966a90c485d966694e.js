@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/paper-dashboard-react/static/media/joe-gardner-2.76ff47ae.jpg"
   },
   {
-    "revision": "a9e473912303d4620190",
-    "url": "/paper-dashboard-react/static/css/main.3f994920.chunk.css"
+    "revision": "e8bb63752b1b70cf19bf",
+    "url": "/paper-dashboard-react/static/css/main.d8618c03.chunk.css"
   },
   {
-    "revision": "48ac036da7c7923266266f63746fc5f1",
-    "url": "/paper-dashboard-react/static/media/nucleo-icons.48ac036d.ttf"
+    "revision": "f32ed5ad3d76067b8e43be1a0bd1ba91",
+    "url": "/paper-dashboard-react/static/media/nucleo-icons.f32ed5ad.eot"
   },
   {
-    "revision": "e52d0f77e79fc728a079",
-    "url": "/paper-dashboard-react/static/js/1.e52d0f77.chunk.js"
+    "revision": "32ed9d147c969f030d94",
+    "url": "/paper-dashboard-react/static/js/1.32ed9d14.chunk.js"
   },
   {
     "revision": "220b397342ef3d59494d",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/paper-dashboard-react/static/media/ayo-ogunseinde-2.bfc688ca.jpg"
   },
   {
-    "revision": "a9e473912303d4620190",
-    "url": "/paper-dashboard-react/static/js/main.a9e47391.chunk.js"
+    "revision": "e8bb63752b1b70cf19bf",
+    "url": "/paper-dashboard-react/static/js/main.e8bb6375.chunk.js"
   },
   {
     "revision": "bb4b9ac9fd07e48f86c719495b65341c",
@@ -56,15 +56,15 @@ self.__precacheManifest = [
     "url": "/paper-dashboard-react/static/media/nucleo-icons.6836b93b.woff"
   },
   {
-    "revision": "f32ed5ad3d76067b8e43be1a0bd1ba91",
-    "url": "/paper-dashboard-react/static/media/nucleo-icons.f32ed5ad.eot"
+    "revision": "48ac036da7c7923266266f63746fc5f1",
+    "url": "/paper-dashboard-react/static/media/nucleo-icons.48ac036d.ttf"
   },
   {
-    "revision": "e52d0f77e79fc728a079",
-    "url": "/paper-dashboard-react/static/css/1.527e0c21.chunk.css"
+    "revision": "32ed9d147c969f030d94",
+    "url": "/paper-dashboard-react/static/css/1.b4a5b648.chunk.css"
   },
   {
-    "revision": "b14bd454eaaddaef2ed92f8a3f7b8708",
+    "revision": "815ed0e558ebf23548781fca3876d51f",
     "url": "/paper-dashboard-react/index.html"
   }
 ];
