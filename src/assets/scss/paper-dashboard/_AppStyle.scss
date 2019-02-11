@@ -393,21 +393,24 @@ body {
     min-width: 50vw;
     min-height: 100vh;
     position: relative;
+    
 
     .logo {
         position: absolute;
         transform: scale(0.3);
         top: 3vh;
         left: 0vw;
+        z-index: 2;
     }
 
     .hero-message {
-        color: #000;
+        color: #fff;
         // text-shadow: #343a40 2px 2px;
         // min-width: 100%;
         // min-height: 12em;
         position: relative;
         margin: 0 auto;
+        z-index: 2;
 
         .hero-title,
         .hero-sub-title {
@@ -416,20 +419,20 @@ body {
             // text-align: center;
             font-weight: 200;
             font-size: 20px;
-            letter-spacing: 0.2em;
+            letter-spacing: 0.1em;
         }
 
         .hero-title {
             margin: 5% 0;
             // text-transform: uppercase;
-            font-size: 36px;
+            font-size: 32px;
         }
     }
 }
 
 .hero::before {
-    // background-image: url(%PUBLIC_URL%/pencil.jpg);
-    // background-size: cover;
+    background-image: url("/pencil.jpg");
+    background-size: cover;
     content: "";
     display: block;
     position: absolute;
@@ -437,7 +440,7 @@ body {
     left: 0;
     width: 50vw;
     height: 100%;
-    z-index: -2;
+    z-index: 0;
     opacity: 0.5;
 }
 
@@ -451,8 +454,8 @@ body {
     left: 0px;
     width: 100%;
     height: 100%;
-    z-index: -1;
-    opacity: 0.9;
+    z-index: 1;
+    opacity: 0.7;
 }
 
 .flex-center {
