@@ -1,4 +1,4 @@
-@media screen and (max-width: 1440px){
+@media screen and (max-width: 2000px){
 
   .navbar {
     padding: 0;
@@ -323,7 +323,7 @@
   }
 }
 
-@media screen and (min-width: 1441px){
+@media screen and (min-width: 2000px){
     .navbar-collapse{
         background: none !important;
     }
@@ -586,7 +586,7 @@
     width: 80%;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 2000px) {
     .navbar-header {
         float: none;
     }
@@ -618,4 +618,8 @@
     .navbar-expand-lg .navbar-toggler {
         display: block !important;
     }
+  }
+
+  .ps__rail-x, .ps__rail-y {
+      display: none !important;
   }
