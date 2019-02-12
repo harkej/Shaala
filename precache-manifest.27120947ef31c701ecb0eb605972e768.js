@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/Shaala/static/media/joe-gardner-2.76ff47ae.jpg"
   },
   {
-    "revision": "319b701960864906ce42",
-    "url": "/Shaala/static/css/main.bbf6a2ec.chunk.css"
+    "revision": "d81328316e7250e9e67b",
+    "url": "/Shaala/static/css/main.d07ce236.chunk.css"
   },
   {
-    "revision": "48ac036da7c7923266266f63746fc5f1",
-    "url": "/Shaala/static/media/nucleo-icons.48ac036d.ttf"
+    "revision": "f32ed5ad3d76067b8e43be1a0bd1ba91",
+    "url": "/Shaala/static/media/nucleo-icons.f32ed5ad.eot"
   },
   {
     "revision": "e18f215bf3f0cd5546f8",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/Shaala/static/media/ayo-ogunseinde-2.bfc688ca.jpg"
   },
   {
-    "revision": "319b701960864906ce42",
-    "url": "/Shaala/static/js/main.319b7019.chunk.js"
+    "revision": "d81328316e7250e9e67b",
+    "url": "/Shaala/static/js/main.d8132831.chunk.js"
   },
   {
     "revision": "bb4b9ac9fd07e48f86c719495b65341c",
@@ -56,15 +56,15 @@ self.__precacheManifest = [
     "url": "/Shaala/static/media/nucleo-icons.6836b93b.woff"
   },
   {
-    "revision": "f32ed5ad3d76067b8e43be1a0bd1ba91",
-    "url": "/Shaala/static/media/nucleo-icons.f32ed5ad.eot"
+    "revision": "48ac036da7c7923266266f63746fc5f1",
+    "url": "/Shaala/static/media/nucleo-icons.48ac036d.ttf"
   },
   {
     "revision": "e18f215bf3f0cd5546f8",
     "url": "/Shaala/static/css/1.b4a5b648.chunk.css"
   },
   {
-    "revision": "a76aa7384c62b3b02b1eb7b573239499",
+    "revision": "c81b3a4fb957911af08a07e498172be2",
     "url": "/Shaala/index.html"
   }
 ];
