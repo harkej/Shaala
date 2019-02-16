@@ -150,24 +150,24 @@ export const subjectWiseData = {
   ]
 }
 
-export const sectionWiseData = {
+export const sectionWiseData1 = {
   "data": [{
       "index": "Section A",
-      "highest": 77.14,
-      "avg": 95.0,
-      "lowest": 92.0,
+      "highest": 95,
+      "avg": 74,
+      "lowest": 61,
       "total": 100
     }, {
       "index": "Section B",
-      "highest": 74.28,
-      "avg": 85.0,
-      "lowest": 92.0,
+      "highest": 92,
+      "avg": 85,
+      "lowest": 65,
       "total": 100
     }, {
       "index": "Section C",
-      "highest": 77.14,
-      "avg": 75.0,
-      "lowest": 32.0,
+      "highest": 97,
+      "avg": 70,
+      "lowest": 43,
       "total": 100
     },
   ],
@@ -178,6 +178,36 @@ export const sectionWiseData = {
     'Average',
     'Lowest',
   ]
+}
+
+export const sectionWiseData2 = {
+  "data": [{
+    "index": "Section A",
+    "highest": 90,
+    "avg": 71,
+    "lowest": 41,
+    "total": 100
+  }, {
+    "index": "Section B",
+    "highest": 96,
+    "avg": 65,
+    "lowest": 32,
+    "total": 100
+  }, {
+    "index": "Section C",
+    "highest": 87,
+    "avg": 76,
+    "lowest": 51,
+    "total": 100
+  },
+],
+header: [
+  '',
+  'Total',
+  'Highest',
+  'Average',
+  'Lowest',
+]
 }
 
 export const studentsWiseData = {

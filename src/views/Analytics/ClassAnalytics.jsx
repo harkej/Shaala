@@ -8,10 +8,16 @@ import {
   Col
 } from 'reactstrap';
 import { Bar, Doughnut } from 'react-chartjs-2';
-import { sectionBarGraph, doughnutData1 } from 'variables/charts';
+import { 
+  sectionBarGraph1, 
+  sectionBarGraph2, 
+  doughnutData1, 
+  doughnutData2 
+} from 'variables/charts';
 
 import {
-  sectionWiseData,
+  sectionWiseData1,
+  sectionWiseData2,
 } from 'variables/tableData';
 import ClassTable from './ClassTable';
 
@@ -19,7 +25,16 @@ import ClassTable from './ClassTable';
 export default class ClassAnalytics extends Component {
 
   render() {
-    const { test, nameOfClass, section, subject } = this.props;
+    const { test, nameOfClass } = this.props;
+    const barData = test === 'Test 1' ?
+      JSON.parse(JSON.stringify(sectionBarGraph1)) :
+      JSON.parse(JSON.stringify(sectionBarGraph2));
+    const doughnutData = test === 'Test 1' ?
+      JSON.parse(JSON.stringify(doughnutData1)) :
+      JSON.parse(JSON.stringify(doughnutData2));
+    const sectionData = test === 'Test 1' ?
+      JSON.parse(JSON.stringify(sectionWiseData1)) :
+      JSON.parse(JSON.stringify(sectionWiseData2));
 
     return (
       <>
@@ -32,8 +47,8 @@ export default class ClassAnalytics extends Component {
               </CardHeader>
               <CardBody>
                 <Bar
-                  data={sectionBarGraph.data}
-                  options={sectionBarGraph.options}
+                  data={barData.data}
+                  options={barData.options}
                   width={400}
                   height={100}
                 />
@@ -48,8 +63,8 @@ export default class ClassAnalytics extends Component {
               </CardHeader>
               <CardBody>
                 <Doughnut
-                  data={doughnutData1.data}
-                  options={doughnutData1.options}
+                  data={doughnutData.data}
+                  options={doughnutData.options}
                 />
               </CardBody>
             </Card>
@@ -62,7 +77,7 @@ export default class ClassAnalytics extends Component {
                 <CardTitle tag='h4'>Section Statistics</CardTitle>
               </CardHeader>
               <CardBody>
-                <ClassTable data={sectionWiseData} />
+                <ClassTable data={sectionData} />
               </CardBody>
             </Card>
           </Col>

@@ -505,7 +505,7 @@ const chapterBarGraph = {
   },
 }
 
-const sectionBarGraph = {
+const sectionBarGraph1 = {
   data: {
     labels: ['Sec A', 'Sec B', 'Sec C'],
     datasets: [
@@ -517,6 +517,39 @@ const sectionBarGraph = {
         hoverBackgroundColor: 'rgba(255,99,132,0.6)',
         hoverBorderColor: 'rgba(255,99,132,1)',
         data: [12, 9, 15]
+      }
+    ]
+  },
+  options: {
+    legend: {
+      display: false,
+    },
+    scales: {
+      yAxes: [
+        {
+          ticks: {
+            fontColor: "#9f9f9f",
+            beginAtZero: true,
+            maxTicksLimit: 10,
+            padding: 20
+          },
+        }
+      ],
+    },
+  },
+}
+const sectionBarGraph2 = {
+  data: {
+    labels: ['Sec A', 'Sec B', 'Sec C'],
+    datasets: [
+      {
+        label: 'Students below 70%',
+        backgroundColor: 'rgba(255,99,132,0.4)',
+        borderColor: 'rgba(255,99,132,1)',
+        borderWidth: 1,
+        hoverBackgroundColor: 'rgba(255,99,132,0.6)',
+        hoverBorderColor: 'rgba(255,99,132,1)',
+        data: [15, 11, 8]
       }
     ]
   },
@@ -550,5 +583,6 @@ module.exports = {
   subjectStatisticsData1,
   subjectStatisticsData2,
   chapterBarGraph,
-  sectionBarGraph,
+  sectionBarGraph1,
+  sectionBarGraph2,
 };

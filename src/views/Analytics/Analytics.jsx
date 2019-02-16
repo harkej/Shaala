@@ -24,7 +24,7 @@ class RegularTables extends React.Component {
     super(props);
 
     this.state = {
-      nameOfClass: 'Eighth',
+      nameOfClass: '8th',
       section: '',
       test: 'Test 1',
       subject: '',
@@ -66,7 +66,6 @@ class RegularTables extends React.Component {
                   </MenuItem>
                   <MenuItem value='Test 1'>Test 1</MenuItem>
                   <MenuItem value='Test 2'>Test 2</MenuItem>
-                  <MenuItem value='Test 3'>Test 3</MenuItem>
                 </Select>
               </FormControl>
             </div>
@@ -88,9 +87,8 @@ class RegularTables extends React.Component {
                   <MenuItem value="">
                     <em>None</em>
                   </MenuItem>
-                  <MenuItem value='Eighth'>Eighth</MenuItem>
-                  <MenuItem value='Ninth'>Ninth</MenuItem>
-                  <MenuItem value='Tenth'>Tenth</MenuItem>
+                  <MenuItem value='8th'>Eighth</MenuItem>
+                  <MenuItem value='10th'>Tenth</MenuItem>
                 </Select>
               </FormControl>
             </div>
@@ -259,8 +257,6 @@ class RegularTables extends React.Component {
             <ClassAnalytics
               test={test}
               nameOfClass={nameOfClass}
-              section={section}
-              subject={subject}
             />
           }
           {
