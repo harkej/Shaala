@@ -8,8 +8,8 @@ self.__precacheManifest = [
     "url": "/Shaala/static/css/main.d07ce236.chunk.css"
   },
   {
-    "revision": "48ac036da7c7923266266f63746fc5f1",
-    "url": "/Shaala/static/media/nucleo-icons.48ac036d.ttf"
+    "revision": "f32ed5ad3d76067b8e43be1a0bd1ba91",
+    "url": "/Shaala/static/media/nucleo-icons.f32ed5ad.eot"
   },
   {
     "revision": "e18f215bf3f0cd5546f8",
@@ -56,8 +56,8 @@ self.__precacheManifest = [
     "url": "/Shaala/static/media/nucleo-icons.6836b93b.woff"
   },
   {
-    "revision": "f32ed5ad3d76067b8e43be1a0bd1ba91",
-    "url": "/Shaala/static/media/nucleo-icons.f32ed5ad.eot"
+    "revision": "48ac036da7c7923266266f63746fc5f1",
+    "url": "/Shaala/static/media/nucleo-icons.48ac036d.ttf"
   },
   {
     "revision": "e18f215bf3f0cd5546f8",

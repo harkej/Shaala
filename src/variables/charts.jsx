@@ -196,41 +196,110 @@ const dashboardNASDAQChart = {
   }
 };
 
-const testWiseAnalytics = {
-  data: canvas => {
-    return {
-      labels: [
-        'Test 1',
-        'Test 2',
-        'Midterm Exam',
-        'Test 3',
-        'Final Exam',
-      ],
-      datasets: [
+const testWiseAnalytics1 = {
+  data: canvas => ({
+    labels: [
+      'Test 1',
+      'Test 2',
+      'Midterm Exam',
+      'Test 3',
+      'Final Exam',
+    ],
+    datasets: [
+      {
+        label: 'Average %',
+        fill: false,
+        lineTension: 0.1,
+        backgroundColor: 'rgba(75,192,192,0.4)',
+        borderColor: 'rgba(75,192,192,1)',
+        borderCapStyle: 'butt',
+        borderDash: [],
+        borderDashOffset: 0.0,
+        borderJoinStyle: 'miter',
+        pointBorderColor: 'rgba(75,192,192,1)',
+        pointBackgroundColor: '#fff',
+        pointBorderWidth: 1,
+        pointHoverRadius: 5,
+        pointHoverBackgroundColor: 'rgba(75,192,192,1)',
+        pointHoverBorderColor: 'rgba(220,220,220,1)',
+        pointHoverBorderWidth: 2,
+        pointRadius: 3,
+        pointHitRadius: 10,
+        data: [65, 59, 75, 81, 84],
+      },
+    ],
+  }),
+  options: {
+    legend: {
+      display: false
+    },
+    maintainAspectRatio: true,
+    tooltips: {
+      enabled: true
+    },
+
+    scales: {
+      yAxes: [
         {
-          label: 'Average %',
-          fill: false,
-          lineTension: 0.1,
-          backgroundColor: 'rgba(75,192,192,0.4)',
-          borderColor: 'rgba(75,192,192,1)',
-          borderCapStyle: 'butt',
-          borderDash: [],
-          borderDashOffset: 0.0,
-          borderJoinStyle: 'miter',
-          pointBorderColor: 'rgba(75,192,192,1)',
-          pointBackgroundColor: '#fff',
-          pointBorderWidth: 1,
-          pointHoverRadius: 5,
-          pointHoverBackgroundColor: 'rgba(75,192,192,1)',
-          pointHoverBorderColor: 'rgba(220,220,220,1)',
-          pointHoverBorderWidth: 2,
-          pointRadius: 3,
-          pointHitRadius: 10,
-          data: [65, 59, 75, 81, 84],
-        },
+          ticks: {
+            fontColor: "#9f9f9f",
+            beginAtZero: false,
+            maxTicksLimit: 5,
+            padding: 20
+          },
+        }
       ],
-    };
-  },
+
+      xAxes: [
+        {
+          barPercentage: 1.6,
+          gridLines: {
+            drawBorder: true,
+            color: "rgba(255,255,255,0.1)",
+            // zeroLineColor: "transparent",
+          },
+          ticks: {
+            padding: 20,
+            fontColor: "#9f9f9f"
+          }
+        }
+      ]
+    }
+  }
+};
+const testWiseAnalytics2 = {
+  data: canvas => ({
+    labels: [
+      'Test 1',
+      'Test 2',
+      'Midterm Exam',
+      'Test 3',
+      'Final Exam',
+    ],
+    datasets: [
+      {
+        label: 'Average %',
+        fill: false,
+        lineTension: 0.1,
+        backgroundColor: 'rgba(75,192,192,0.4)',
+        borderColor: 'rgba(75,192,192,1)',
+        borderCapStyle: 'butt',
+        borderDash: [],
+        borderDashOffset: 0.0,
+        borderJoinStyle: 'miter',
+        pointBorderColor: 'rgba(75,192,192,1)',
+        pointBackgroundColor: '#fff',
+        pointBorderWidth: 1,
+        pointHoverRadius: 5,
+        pointHoverBackgroundColor: 'rgba(75,192,192,1)',
+        pointHoverBorderColor: 'rgba(220,220,220,1)',
+        pointHoverBorderWidth: 2,
+        pointRadius: 3,
+        pointHitRadius: 10,
+        data: [69, 62, 78, 73, 81],
+      },
+    ],
+  }),
   options: {
     legend: {
       display: false
@@ -270,7 +339,7 @@ const testWiseAnalytics = {
   }
 };
 
-const doughnutData = {
+const doughnutData1 = {
   data: {
     labels: [
       'Distinction',
@@ -278,7 +347,7 @@ const doughnutData = {
       'Second Class & below'
     ],
     datasets: [{
-      data: [14, 24, 12],
+      data: [34, 47, 29],
       backgroundColor: [
       '#FF6384',
       '#36A2EB',
@@ -298,7 +367,35 @@ const doughnutData = {
   },
 };
 
-const subjectStatisticsData = {
+const doughnutData2 = {
+  data: {
+    labels: [
+      'Distinction',
+      'First Class',
+      'Second Class & below'
+    ],
+    datasets: [{
+      data: [27, 43, 40],
+      backgroundColor: [
+      '#FF6384',
+      '#36A2EB',
+      '#FFCE56'
+      ],
+      hoverBackgroundColor: [
+      '#FF6384',
+      '#36A2EB',
+      '#FFCE56'
+      ]
+    }],
+  },
+  options: {
+    legend: {
+      position: 'bottom',
+    },
+  },
+};
+
+const subjectStatisticsData1 = {
   data: {
     labels: ['English', 'Hindi', 'Kannada', 'Mathematics', 'Science', 'Social Studies'],
     datasets: [
@@ -309,13 +406,67 @@ const subjectStatisticsData = {
         borderWidth: 1,
         hoverBackgroundColor: 'rgba(255,99,132,0.6)',
         hoverBorderColor: 'rgba(255,99,132,1)',
-        data: [65, 59, 80, 81, 56, 55]
+        data: [25, 29, 10, 19, 27, 14]
       }
     ]
   },
   options: {
     legend: {
       display: false,
+    },
+    maintainAspectRatio: true,
+    tooltips: {
+      enabled: true
+    },
+    scales: {
+      yAxes: [
+        {
+          ticks: {
+            fontColor: "#9f9f9f",
+            beginAtZero: true,
+            maxTicksLimit: 7,
+            padding: 20
+          },
+        }
+      ],
+    },
+  },
+}
+
+const subjectStatisticsData2 = {
+  data: {
+    labels: ['English', 'Hindi', 'Kannada', 'Mathematics', 'Science', 'Social Studies'],
+    datasets: [
+      {
+        label: 'Students below 70%',
+        backgroundColor: 'rgba(255,99,132,0.4)',
+        borderColor: 'rgba(255,99,132,1)',
+        borderWidth: 1,
+        hoverBackgroundColor: 'rgba(255,99,132,0.6)',
+        hoverBorderColor: 'rgba(255,99,132,1)',
+        data: [15, 19, 20, 24, 11, 26]
+      }
+    ]
+  },
+  options: {
+    legend: {
+      display: false,
+    },
+    maintainAspectRatio: true,
+    tooltips: {
+      enabled: true
+    },
+    scales: {
+      yAxes: [
+        {
+          ticks: {
+            fontColor: "#9f9f9f",
+            beginAtZero: true,
+            maxTicksLimit: 7,
+            padding: 20
+          },
+        }
+      ],
     },
   },
 }
@@ -392,9 +543,12 @@ module.exports = {
   dashboard24HoursPerformanceChart,
   dashboardEmailStatisticsChart,
   dashboardNASDAQChart,
-  testWiseAnalytics,
-  doughnutData,
-  subjectStatisticsData,
+  testWiseAnalytics1,
+  testWiseAnalytics2,
+  doughnutData1,
+  doughnutData2,
+  subjectStatisticsData1,
+  subjectStatisticsData2,
   chapterBarGraph,
   sectionBarGraph,
 };
