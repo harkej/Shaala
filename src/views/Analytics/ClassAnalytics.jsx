@@ -7,14 +7,14 @@ import {
   Row,
   Col
 } from 'reactstrap';
+import { Bar, Doughnut } from 'react-chartjs-2';
+import { sectionBarGraph, doughnutData1 } from 'variables/charts';
 
 import {
   sectionWiseData,
 } from 'variables/tableData';
 import ClassTable from './ClassTable';
-import { Bar, Doughnut } from 'react-chartjs-2';
 
-import { sectionBarGraph, doughnutData1 } from 'variables/charts.jsx';
 
 export default class ClassAnalytics extends Component {
 
